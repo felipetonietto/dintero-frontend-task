@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import dinteroLogo from './assets/dintero_logo_black.svg'
 import './App.css'
 

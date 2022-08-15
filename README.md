@@ -54,6 +54,6 @@ Example UX: https://www.figma.com/file/L7XqEsygJ1ZvABFR16LXLK/Untitled?node-id=7
 
 This folder contains a Typescript app using vite. Use this as a starting point for your application.
 
-Configure the `VITE_QUICKR_API_KEY` and `VITE_QUICKR_API_SECRET` environment variables in the `.env` file. Make sure to not check in changes to the `.env` file to git, it should be blocked in the .gitignore file.
+Configure the `VITE_QUICKR_X_API_KEY` environment variables in the `.env` file. Make sure to not check in changes to the `.env` file to git, it should be blocked in the .gitignore file.
 
 Start the application in development mode with `yarn dev`.
