@@ -11,7 +11,7 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/quickr-api/, '')
       },
-      '/dintero-api/companies': {
+      '/dintero-api/organizations': {
         target: 'https://test.dintero.com/v1/accounts/P11100000/search/external/organizations/no/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/dintero-api\/organizations/, '')

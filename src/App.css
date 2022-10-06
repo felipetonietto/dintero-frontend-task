@@ -5,8 +5,16 @@
   padding: 2rem;
 }
 
+.header {
+  margin-bottom: 30px;
 
-.header{
-  margin-bottom: 20px;
 }
 
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}

@@ -25,3 +25,10 @@ body {
   min-height: 100vh;
 }
 
+p {
+margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
